@@ -71,16 +71,17 @@ namespace WindowsFormsApplication1 {
 
 			//string card_column_prns = null;
 			string card_values_prns = "'" + UserID + "','" + typeSecureInt + "','" + PhtoID  + "'";
+	
+			int CID = ml.insert("INSERT INTO cards (uid,type,photo) VALUES (" + card_values_prns + ")","Yes");
+			
 			int i = 1;
 			foreach (var obj in alObjects) {
 				int objID = Convert.ToInt32(obj);
+				ml.insert("INSERT INTO UsersObjects (uid,oid,cid) VALUES (" + card_values_prns + ",'" + CID + "')");
 				//card_column_prns += ",obj0" + i.ToString();
 				//card_values_prns += ",'" + objID.ToString() + "'";
 				i++;
 			}
-
-			int CID = ml.insert("INSERT INTO cards (uid,type,photo) VALUES (" + card_values_prns + ")","Yes");
-			ml.insert("INSERT INTO UsersObjects (uid,oid,cid) VALUES (" + card_values_prns + ",'" + CID + "')");
 		}
 
 		private void addNewObjectToolStripMenuItem_Click(object sender, EventArgs e) {
