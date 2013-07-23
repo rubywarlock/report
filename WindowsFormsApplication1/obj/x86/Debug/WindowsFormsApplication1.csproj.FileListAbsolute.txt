@@ -1,0 +1,47 @@
+C:\Users\phoenix\documents\visual studio 2010\Projects\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
+C:\Users\phoenix\documents\visual studio 2010\Projects\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Database1.sdf
+C:\Users\phoenix\documents\visual studio 2010\Projects\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+C:\Users\phoenix\documents\visual studio 2010\Projects\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+C:\Users\phoenix\documents\visual studio 2010\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.csprojResolveAssemblyReference.cache
+C:\Users\phoenix\documents\visual studio 2010\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Form1.resources
+C:\Users\phoenix\documents\visual studio 2010\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\phoenix\documents\visual studio 2010\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.csproj.GenerateResource.Cache
+C:\Users\phoenix\documents\visual studio 2010\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.exe
+C:\Users\phoenix\documents\visual studio 2010\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.pdb
+D:\programming\Visual Studio 2010\C#\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
+D:\programming\Visual Studio 2010\C#\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.exe
+D:\programming\Visual Studio 2010\C#\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.pdb
+D:\programming\Visual Studio 2010\C#\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Database1.sdf
+D:\programming\Visual Studio 2010\C#\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+D:\programming\Visual Studio 2010\C#\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+D:\programming\Visual Studio 2010\C#\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\programming\Visual Studio 2010\C#\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Form1.resources
+D:\programming\Visual Studio 2010\C#\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Properties.Resources.resources
+D:\programming\Visual Studio 2010\C#\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\programming\Visual Studio 2010\C#\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\programming\Visual Studio 2010\C#\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.FormNewUserCard.resources
+D:\programming\Visual Studio 2010\C#\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.FormAddObject.resources
+D:\programming\Visual Studio 2010\C#\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.FormAddPost.resources
+D:\programming\Microsoft Visual Studio 2010\C#\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
+D:\programming\Microsoft Visual Studio 2010\C#\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.exe
+D:\programming\Microsoft Visual Studio 2010\C#\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.pdb
+D:\programming\Microsoft Visual Studio 2010\C#\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Database1.sdf
+D:\programming\Microsoft Visual Studio 2010\C#\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+D:\programming\Microsoft Visual Studio 2010\C#\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+D:\programming\Microsoft Visual Studio 2010\C#\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.csprojResolveAssemblyReference.cache
+D:\programming\Microsoft Visual Studio 2010\C#\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Form1.resources
+D:\programming\Microsoft Visual Studio 2010\C#\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.FormNewUserCard.resources
+D:\programming\Microsoft Visual Studio 2010\C#\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.FormAddObject.resources
+D:\programming\Microsoft Visual Studio 2010\C#\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.FormAddPost.resources
+D:\programming\Microsoft Visual Studio 2010\C#\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Properties.Resources.resources
+D:\programming\Microsoft Visual Studio 2010\C#\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.csproj.GenerateResource.Cache
+D:\programming\Microsoft Visual Studio 2010\C#\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Database1DataSet.cs
+D:\programming\Microsoft Visual Studio 2010\C#\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Database1DataSet.Designer.cs
+D:\programming\Microsoft Visual Studio 2010\C#\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Database1DataSet.xsc
+D:\programming\Microsoft Visual Studio 2010\C#\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Database1DataSet.xsd
+D:\programming\Microsoft Visual Studio 2010\C#\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Database1DataSet.xss
+D:\programming\Visual Studio 2010\C#\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Database1DataSet.cs
+D:\programming\Visual Studio 2010\C#\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Database1DataSet.Designer.cs
+D:\programming\Visual Studio 2010\C#\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Database1DataSet.xsc
+D:\programming\Visual Studio 2010\C#\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Database1DataSet.xsd
+D:\programming\Visual Studio 2010\C#\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Database1DataSet.xss
