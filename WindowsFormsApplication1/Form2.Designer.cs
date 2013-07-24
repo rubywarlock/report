@@ -39,10 +39,6 @@
 			this.groupBox4 = new System.Windows.Forms.GroupBox();
 			this.checkBox2 = new System.Windows.Forms.CheckBox();
 			this.dataGridView1 = new System.Windows.Forms.DataGridView();
-			this.colCheck = new System.Windows.Forms.DataGridViewCheckBoxColumn();
-			this.objectDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-			this.oidDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-			this.objectsBindingSource = new System.Windows.Forms.BindingSource(this.components);
 			this.database1DataSet = new WindowsFormsApplication1.Database1DataSet();
 			this.typeSecure = new System.Windows.Forms.ComboBox();
 			this.label4 = new System.Windows.Forms.Label();
@@ -63,16 +59,20 @@
 			this.operationsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
 			this.addNewPostToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
 			this.addNewObjectToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+			this.colCheck = new System.Windows.Forms.DataGridViewCheckBoxColumn();
 			this.objectsTableAdapter = new WindowsFormsApplication1.Database1DataSetTableAdapters.objectsTableAdapter();
+			this.objectsBindingSource = new System.Windows.Forms.BindingSource(this.components);
+			this.oidDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+			this.objectDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
 			this.groupBox1.SuspendLayout();
 			this.groupBox3.SuspendLayout();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
 			this.groupBox2.SuspendLayout();
 			this.groupBox4.SuspendLayout();
 			((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.objectsBindingSource)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.database1DataSet)).BeginInit();
 			this.menuStrip1.SuspendLayout();
+			((System.ComponentModel.ISupportInitialize)(this.objectsBindingSource)).BeginInit();
 			this.SuspendLayout();
 			// 
 			// groupBox1
@@ -232,32 +232,6 @@
 			this.dataGridView1.RowTemplate.Resizable = System.Windows.Forms.DataGridViewTriState.False;
 			this.dataGridView1.Size = new System.Drawing.Size(533, 153);
 			this.dataGridView1.TabIndex = 8;
-			// 
-			// colCheck
-			// 
-			this.colCheck.HeaderText = "";
-			this.colCheck.Name = "colCheck";
-			this.colCheck.Width = 40;
-			// 
-			// objectDataGridViewTextBoxColumn
-			// 
-			this.objectDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-			this.objectDataGridViewTextBoxColumn.DataPropertyName = "object";
-			this.objectDataGridViewTextBoxColumn.HeaderText = "object";
-			this.objectDataGridViewTextBoxColumn.Name = "objectDataGridViewTextBoxColumn";
-			// 
-			// oidDataGridViewTextBoxColumn
-			// 
-			this.oidDataGridViewTextBoxColumn.DataPropertyName = "oid";
-			this.oidDataGridViewTextBoxColumn.HeaderText = "oid";
-			this.oidDataGridViewTextBoxColumn.Name = "oidDataGridViewTextBoxColumn";
-			this.oidDataGridViewTextBoxColumn.ReadOnly = true;
-			this.oidDataGridViewTextBoxColumn.Visible = false;
-			// 
-			// objectsBindingSource
-			// 
-			this.objectsBindingSource.DataMember = "objects";
-			this.objectsBindingSource.DataSource = this.database1DataSet;
 			// 
 			// database1DataSet
 			// 
@@ -430,9 +404,35 @@
 			this.addNewObjectToolStripMenuItem.Text = "Добавить объект";
 			this.addNewObjectToolStripMenuItem.Click += new System.EventHandler(this.addNewObjectToolStripMenuItem_Click);
 			// 
+			// colCheck
+			// 
+			this.colCheck.HeaderText = "";
+			this.colCheck.Name = "colCheck";
+			this.colCheck.Width = 40;
+			// 
 			// objectsTableAdapter
 			// 
 			this.objectsTableAdapter.ClearBeforeFill = true;
+			// 
+			// objectsBindingSource
+			// 
+			this.objectsBindingSource.DataMember = "objects";
+			this.objectsBindingSource.DataSource = this.database1DataSet;
+			// 
+			// oidDataGridViewTextBoxColumn
+			// 
+			this.oidDataGridViewTextBoxColumn.DataPropertyName = "oid";
+			this.oidDataGridViewTextBoxColumn.HeaderText = "oid";
+			this.oidDataGridViewTextBoxColumn.Name = "oidDataGridViewTextBoxColumn";
+			this.oidDataGridViewTextBoxColumn.ReadOnly = true;
+			this.oidDataGridViewTextBoxColumn.Visible = false;
+			// 
+			// objectDataGridViewTextBoxColumn
+			// 
+			this.objectDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+			this.objectDataGridViewTextBoxColumn.DataPropertyName = "object";
+			this.objectDataGridViewTextBoxColumn.HeaderText = "object";
+			this.objectDataGridViewTextBoxColumn.Name = "objectDataGridViewTextBoxColumn";
 			// 
 			// FormNewUserCard
 			// 
@@ -462,10 +462,10 @@
 			this.groupBox4.ResumeLayout(false);
 			this.groupBox4.PerformLayout();
 			((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.objectsBindingSource)).EndInit();
 			((System.ComponentModel.ISupportInitialize)(this.database1DataSet)).EndInit();
 			this.menuStrip1.ResumeLayout(false);
 			this.menuStrip1.PerformLayout();
+			((System.ComponentModel.ISupportInitialize)(this.objectsBindingSource)).EndInit();
 			this.ResumeLayout(false);
 			this.PerformLayout();
 
@@ -507,11 +507,11 @@
 		private System.Windows.Forms.ComboBox cbPosts;
 		private System.Windows.Forms.DataGridView dataGridView1;
 		private Database1DataSet database1DataSet;
-		private System.Windows.Forms.BindingSource objectsBindingSource;
-		private Database1DataSetTableAdapters.objectsTableAdapter objectsTableAdapter;
+		private System.Windows.Forms.CheckBox checkBox2;
 		private System.Windows.Forms.DataGridViewCheckBoxColumn colCheck;
 		private System.Windows.Forms.DataGridViewTextBoxColumn objectDataGridViewTextBoxColumn;
 		private System.Windows.Forms.DataGridViewTextBoxColumn oidDataGridViewTextBoxColumn;
-		private System.Windows.Forms.CheckBox checkBox2;
+		private System.Windows.Forms.BindingSource objectsBindingSource;
+		private Database1DataSetTableAdapters.objectsTableAdapter objectsTableAdapter;
 	}
 }

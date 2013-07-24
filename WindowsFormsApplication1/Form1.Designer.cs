@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
 					this.components = new System.ComponentModel.Container();
+					System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
 					this.database1DataSet1 = new WindowsFormsApplication1.Database1DataSet();
 					this.buttonTest = new System.Windows.Forms.Button();
 					this.contextMenu1 = new System.Windows.Forms.ContextMenuStrip(this.components);
@@ -55,12 +56,14 @@
 					this.usersBindingSource = new System.Windows.Forms.BindingSource(this.components);
 					this.usersTableAdapter = new WindowsFormsApplication1.Database1DataSetTableAdapters.usersTableAdapter();
 					this.checkBox2 = new System.Windows.Forms.CheckBox();
+					this.report1 = new FastReport.Report();
 					((System.ComponentModel.ISupportInitialize)(this.database1DataSet1)).BeginInit();
 					this.contextMenu1.SuspendLayout();
 					this.menuMain.SuspendLayout();
 					this.groupBox1.SuspendLayout();
 					((System.ComponentModel.ISupportInitialize)(this.dgMembers)).BeginInit();
 					((System.ComponentModel.ISupportInitialize)(this.usersBindingSource)).BeginInit();
+					((System.ComponentModel.ISupportInitialize)(this.report1)).BeginInit();
 					this.SuspendLayout();
 					// 
 					// database1DataSet1
@@ -280,6 +283,11 @@
 					this.checkBox2.UseVisualStyleBackColor = true;
 					this.checkBox2.CheckedChanged += new System.EventHandler(this.checkBox2_CheckedChanged);
 					// 
+					// report1
+					// 
+					this.report1.ReportResourceString = resources.GetString("report1.ReportResourceString");
+					this.report1.RegisterData(this.database1DataSet1, "database1DataSet1");
+					// 
 					// Form1
 					// 
 					this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -306,6 +314,7 @@
 					this.groupBox1.PerformLayout();
 					((System.ComponentModel.ISupportInitialize)(this.dgMembers)).EndInit();
 					((System.ComponentModel.ISupportInitialize)(this.usersBindingSource)).EndInit();
+					((System.ComponentModel.ISupportInitialize)(this.report1)).EndInit();
 					this.ResumeLayout(false);
 					this.PerformLayout();
 
@@ -339,6 +348,7 @@
 				private System.Windows.Forms.DataGridViewTextBoxColumn uid;
 				private System.Windows.Forms.DataGridViewTextBoxColumn userName;
 				private System.Windows.Forms.DataGridViewTextBoxColumn tabNum;
+				private FastReport.Report report1;
     }
 }
 

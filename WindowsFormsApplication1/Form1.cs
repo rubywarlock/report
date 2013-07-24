@@ -130,13 +130,16 @@ namespace WindowsFormsApplication1{
 							string uid = myTargetArray[1].ToString();
 							string tip = myTargetArray[2].ToString();
 							string phid = myTargetArray[3].ToString();
-							ml.insert("INSERT INTO PrintTable (cid,phid,uid,tip) VALUES ('" + cid + "')");
+							ml.insert("INSERT INTO PrintTable (cid,phid,uid,tip) VALUES ('" + cid + "','" + phid + "','" + uid + "','" + tip + "')");
 						}
 					}
 				}
 			}
 
 			if (print) {
+				//report1.Load();
+				//report1.RegisterData();
+
 				report1.Show();
 			}
 

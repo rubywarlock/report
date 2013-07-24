@@ -69,6 +69,8 @@ namespace WindowsFormsApplication1 {
 			UserID = ml.insert("INSERT INTO users (fname,lname,ftname,tabnum,post) VALUES (" + prns + ")", "Yes");
 			PhtoID = ml.insert_image(imageData, UserID, "Yes");
 
+			ml.insert("INSERT INTO UsersPosts (postid,userid) VALUES ('" + cbVal + "','" + UserID + "')");
+
 			//string card_column_prns = null;
 			string card_values_prns = "'" + UserID + "','" + typeSecureInt + "','" + PhtoID  + "'";
 	
@@ -77,7 +79,7 @@ namespace WindowsFormsApplication1 {
 			int i = 1;
 			foreach (var obj in alObjects) {
 				int objID = Convert.ToInt32(obj);
-				ml.insert("INSERT INTO UsersObjects (uid,oid,cid) VALUES (" + card_values_prns + ",'" + CID + "')");
+				ml.insert("INSERT INTO UsersObjects (uid,oid,cid) VALUES ('" + UserID  + "','" + objID + "','" + CID + "')");
 				//card_column_prns += ",obj0" + i.ToString();
 				//card_values_prns += ",'" + objID.ToString() + "'";
 				i++;
